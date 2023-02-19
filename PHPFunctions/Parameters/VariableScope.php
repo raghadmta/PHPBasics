@@ -11,7 +11,7 @@
 
     function generateLessonName($concept)
     {
-        global $language;
+        global $language; // global keyword to use variables from the global scope within a function.
         return $language . ": " . $concept;
     }
 

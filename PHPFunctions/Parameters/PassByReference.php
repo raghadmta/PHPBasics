@@ -9,7 +9,7 @@
     $string_two = "toads are nice";
     $string_three = "brown is my favorite color";
 
-    function convertToQuestion(&$String)
+    function convertToQuestion(&$String) // (&) mean that argument will be passed by reference.
     {
         $String = "Do you think " . $String . "?\n";
         echo $String;
