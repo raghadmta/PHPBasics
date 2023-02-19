@@ -21,7 +21,6 @@
 
     }
 
-    // Don't change the code below:
     
     $error = notFound();
     $heart = greetLearner();
