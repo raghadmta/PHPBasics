@@ -18,7 +18,7 @@
     {   
         $volume = $height * $width * $depth;
         return $volume;
-    }
+    } 
     
     echo calculateVolume(8, 6, 45);
                
