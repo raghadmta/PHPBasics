@@ -12,10 +12,3 @@ array_shift($record_holders);
 array_unshift($record_holders, "Usain Bolt");
 
 ?>
-
-
-
-
-
-
-

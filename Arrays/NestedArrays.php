@@ -6,4 +6,3 @@ $treasure_hunt = ["garbage", "cat", 99, ["soda can", 8, ":)", "sludge", ["stuff"
 echo $treasure_hunt[3][4][2][0];
 
 ?>
-                  
