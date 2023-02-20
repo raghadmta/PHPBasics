@@ -8,7 +8,6 @@ function calculateDistance($num1, $num2)
 }
 calculateDistance(4, -1);
 
-
 function calculateTip($meal_price)
 {
     $total = round($meal_price * 1.18); // round the number up
