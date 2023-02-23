@@ -16,6 +16,10 @@ echo "\n";
 echo chooseCheckoutLane(155);
 echo "\n";
 
+
+
+// -------------------------------------
+
 function canIVote($age)
 {
     if ($age >= 18) {
