@@ -14,7 +14,7 @@ function airQuality($color)
             echo "unhealthy for sensitive groups";
             break;
         case "red":
-            echo "unhealthy";
+            echo "unhealthy"; 
             break;
         case "purple":
             echo "very unhealthy";
