@@ -1,36 +1,34 @@
 <?php
 namespace Codecademy;
 
-function returnSeason($month)
-{ // make multiple cases have the same response
-    switch ($month) {
-        case "December":
-        case "January":
-        case "February":
-            return "winter";
+function airQuality($color)
+{
+    switch ($color) {
+        case "green":
+            echo "good";
             break;
-        case "March":
-        case "April":
-        case "May":
-            return "spring";
+        case "yellow":
+            echo "moderate";
             break;
-        case "June":
-        case "July":
-        case "August":
-            return "summer";
+        case "orange":
+            echo "unhealthy for sensitive groups";
             break;
-        case "September":
-        case "October":
-        case "November":
-            return "fall";
+        case "red":
+            echo "unhealthy"; 
             break;
+        case "purple":
+            echo "very unhealthy";
+            break;
+        case "maroon":
+            echo "hazardous";
+            break;
+        default:
+            echo "invalid color";
     }
 }
 
-echo returnSeason("November");
-echo "\n";
-echo returnSeason("April");
-echo "\n";
-echo returnSeason("February");
 
+airQuality("green");
+airQuality("navey");
+airQuality("red");
 ?>
