@@ -5,7 +5,7 @@
     <p>This is HTML</p>
 
     <?php echo '<p> This is PHP </p> '; ?>
-
+      
 </body>
 
 </html>
