@@ -19,16 +19,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             } else {
                 $feedback = $error_message;
             }
-        } else if ($card_type === "visa") {
+        } elseif ($card_type === "visa") {
             if (preg_match("/4[0-9]{12}([0-9]{3})?([0-9]{3})?/", $card_num) === 1) {
                 $feedback = $success_message;
             } else {
                 $feedback = $error_message;
             }
+        } else {
+
         }
+
     } else {
         $feedback = $error_message;
     }
+
+
+
+
+
+
+
+
 }
 ?>
 <form action="" method="POST">
