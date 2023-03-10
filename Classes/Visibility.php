@@ -1,8 +1,10 @@
 <?php
 class Beverage
 {
-    private $temperature, $color;
-    public $opacity;
+    // private $temperature, $color; -> can be seen ONLY in the class
+    protected $temperature, $color; //-> can be seen in all child classes can't see them externally
+
+    protected $opacity;
     function __construct($temperature, $color)
     {
         $this->temperature = $temperature;
